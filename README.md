@@ -26,7 +26,8 @@ Run the installer — Croco installs to `C:\Program Files\Croco` and adds a Star
 - **AI Assistant** — Claude Code, Codex, Aider, Gemini CLI, Ollama; per-project streaming chat
 - **Terminal** — Per-project run commands with progress-bar support and graceful stop
 - **Ideas Scratchpad** — 69 curated ideas across 11 categories; canvas drawing with undo and eraser tool
-- **19 Themes** — Default Dark, Acidic Croco, Bloody Croco, Croco Lite, Croco Sparrow, Monkey D. Croco, Catppuccin, Tokyo Night, Dracula, Nord, Gruvbox, One Dark, and more
+- **20 Themes** — Default Dark, Acidic Croco, Bloody Croco, Croco Lite, Croco Sparrow, Monkey D. Croco, Pasta Attack, Catppuccin, Tokyo Night, Dracula, Nord, Gruvbox, One Dark, and more
+- **Keyboard Shortcuts** — Chord navigation (G+key), remappable via Settings → Shortcuts; press `?` to see them all
 - **Auto-updates** — In-app update check; installs silently and restarts automatically
 
 ## System Requirements
@@ -43,6 +44,7 @@ Croco checks for updates on launch. When one is available you'll see a banner in
 
 | Version | Highlights |
 |---|---|
+| `1.2.11` | Keyboard shortcut remapping in Settings; new nav shortcuts (G+I, G+A, G+F, Ctrl+,); Pasta Attack theme; straw hat easter egg fixed; word count shows only non-archived notes |
 | `1.2.10` | 4 new themes (Bloody Croco, Croco Lite, Croco Sparrow, Monkey D. Croco); straw hat easter egg on Monkey D. Croco; improved sidebar nav visibility; archive button always visible on notes; sidebar badge shows only unarchived notes; todo rows display linked project name; long todos expand inline; app auto-relaunches after update; faster navigation via data cache |
 | `1.2.9` | GitHub OAuth App client ID; OAuth login fix |
 | `1.2.8` | Activity filter bar redesigned; sidebar update banner; note pinning in project detail; silent auto-update for private repo; Ideas: undo, eraser, 12 new SaaS revenue ideas; OAuth-only GitHub login; bug fixes |
