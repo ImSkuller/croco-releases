@@ -59,7 +59,8 @@ Croco checks for updates on launch. When one is available you'll see a banner in
 
 | Version | Highlights |
 |---|---|
-| `1.2.13` | Bug Fixes, Storage is now interchangeable between JSON and SQLITE whichever one the user deems would be better. `corco:easter-egg`. Project Creation Fixes, Project Info Page Fixes, Notes Update, Github fixes  |
+| `1.2.14` | Github login fix |
+| `1.2.13` | Bug Fixes, Storage is now interchangeable between JSON and SQLITE whichever one the user deems would be better. `corco:easter-egg`. Project Creation Fixes, Project Info Page Fixes, Notes Update, Github fixes |
 | `1.2.12` | Minecraft Developer Patch: Fabric, Paper, Forge, Spigot + discord.py + discord.js templates; redesigned two-column project create; Glassy Croco theme (iOS liquid glass, floating sidebar); Monkey D. Croco rework (One Piece palette); removed Bloody Croco + Pasta Attack; SQLite storage backend with one-click JSON→SQLite migration (Settings → Storage); Croco Run easter egg game (`croco:game` or 5× profile click) |
 | `1.2.11` | Keyboard Warrior Patch: Settings → Shortcuts section with click-to-capture remapping for all global shortcuts; `Ctrl+,` → Settings; G+I/A/F/Q nav shortcuts; responsive shortcuts modal; Pasta Attack theme; straw hat easter egg fixed on Monkey D. Croco; word count footer shows unarchived notes only |
 | `1.2.10` | 4 new themes (Bloody Croco, Croco Lite, Croco Sparrow, Monkey D. Croco + straw hat easter egg); improved sidebar nav visibility; archive button always visible on notes; sidebar badge shows only unarchived notes; todo rows show linked project name; long todos expand inline; auto-relaunch after update installs; stale-while-revalidate data cache for faster navigation |
