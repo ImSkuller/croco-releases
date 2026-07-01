@@ -44,27 +44,6 @@ Run the installer — Croco installs to `C:\Program Files\Croco` and adds a Star
 
 Croco checks for updates on launch. When one is available you'll see a banner in the sidebar. Click **Settings → Updates → Install** — the update downloads and installs silently. The app restarts automatically.
 
-## Development
-
-**Requirements:** [Rust](https://rustup.rs) + Node.js 18+
-
-```bash
-npm install
-npm run tauri:dev     # launch Vite dev server + Tauri window
-npm run tauri:build   # production build
-```
-
-The installer is written to `src-tauri/target/release/bundle/`.
-
-## Releasing
-
-Push a version tag to trigger the cross-platform GitHub Actions build:
-
-```bash
-git tag v1.x.x-beta
-git push origin v1.x.x-beta
-```
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -80,6 +59,7 @@ git push origin v1.x.x-beta
 
 | Version | Highlights |
 |---|---|
+| `1.2.13` | Bug Fixes, Storage is now interchangeable between JSON and SQLITE whichever one the user deems would be better. `corco:easter-egg`. Project Creation Fixes, Project Info Page Fixes, Notes Update, Github fixes  |
 | `1.2.12` | Minecraft Developer Patch: Fabric, Paper, Forge, Spigot + discord.py + discord.js templates; redesigned two-column project create; Glassy Croco theme (iOS liquid glass, floating sidebar); Monkey D. Croco rework (One Piece palette); removed Bloody Croco + Pasta Attack; SQLite storage backend with one-click JSON→SQLite migration (Settings → Storage); Croco Run easter egg game (`croco:game` or 5× profile click) |
 | `1.2.11` | Keyboard Warrior Patch: Settings → Shortcuts section with click-to-capture remapping for all global shortcuts; `Ctrl+,` → Settings; G+I/A/F/Q nav shortcuts; responsive shortcuts modal; Pasta Attack theme; straw hat easter egg fixed on Monkey D. Croco; word count footer shows unarchived notes only |
 | `1.2.10` | 4 new themes (Bloody Croco, Croco Lite, Croco Sparrow, Monkey D. Croco + straw hat easter egg); improved sidebar nav visibility; archive button always visible on notes; sidebar badge shows only unarchived notes; todo rows show linked project name; long todos expand inline; auto-relaunch after update installs; stale-while-revalidate data cache for faster navigation |
